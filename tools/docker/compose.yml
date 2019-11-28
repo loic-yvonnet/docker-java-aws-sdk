@@ -1,0 +1,11 @@
+version: '2'
+services:
+  dev-image:
+    image: "loic-yvo/ubuntu/aws/eclipse:latest"
+    privileged: true
+    container_name: awseclipse
+    environment:
+      - DISPLAY
+    volumes:
+      - "../..:/home/developer"
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
