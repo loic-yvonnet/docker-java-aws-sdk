@@ -1,4 +1,4 @@
-== Docker Container for AWS SDK for Java ==
+# Docker Container for AWS SDK for Java
 
 This repo was an attempt to install and configure automatically the AWS Toolkit for Eclipse in a Docker container. At the time of writing, I did not find an easy and reliable way to install plugins to Eclipse via command line. Besides, the display port redirection did not work for me (even for a simple xclock). Hence, I could not run Eclipse from a Docker container.
 
